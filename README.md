@@ -8,6 +8,9 @@
 
 ### Construcción
 + **solicitar** = usuario ingrese algún dato (número);
++ **verificar si** dato ingresado es un número;
++ **sino** **retornar una alerta** que indique lo que está ingresando corresponde o no;
++ **si** corresponde seguir con lo siguiente;
 + **función** validarTarjeta = (arreglo, número);
 + **revertir** = x(parametro1, parametro2);
 + **nuevoNumero** = arreglo con los números invertidos;
@@ -18,14 +21,14 @@
 + (para cada número par multiplicar)
 + nuevoNúmeroMultiplicar = arreglo vacío;
 + y= 0;
-+ para(inicio = 0; inicio <=nuevoNúmero.longitud; inicio ++);
-+ si el residuo es igual a 0, entonces * por 2.
++ **para**(inicio = 0; inicio <=nuevoNúmero.longitud; inicio ++);
++ **si** el residuo es igual a 0, entonces * por 2.
 + (para cada número impar sumar)
 + nuevoNúmeroSumar= arreglo vacío;
 + x=0
-+ para(inicio = 1; inicio <=nuevoNúmero.longitud; inicio +2);
-+ si el residuo es igual a 0, entonces + producto de posicion par.
-
++ **para**(inicio = 1; inicio <=nuevoNúmero.longitud; inicio +2);
++ **si** el residuo es igual a 0, entonces + producto de posicion par;
++ **llamar** a la función;
 
 ### Ejemplo
 
@@ -38,7 +41,7 @@ var reverse = function(array){
 
 #### Link
 
-_https://cl.pinterest.com/pin/838654761831506946/_
+_[diagrama validación](https://github.com/cubillosarteaga/proyecto-validacion/blob/master/diagrama%20tarjeta%20valida.jpg?raw=true)_
 
 
 **Este archivo es la versión 0.0.1** 

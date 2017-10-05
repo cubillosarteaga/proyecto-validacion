@@ -4,13 +4,16 @@ var request = (prompt("Por favor ingrese su número de tarjeta"));
 	if(request === ''){
 		alert("No puede ingresar un campo vacío"); // cumpliendo ciertas condiciones no puede ingresar campos vacíos.
 	
-    }else if (isNaN(parseInt(request.value))){
-            alert('Por favor ingrese un número'); // tiene que ser un número. 
-     
-  }else{
-  	(request === Number);
-  	alert ('Opción correcta');
-  }          
+    }else if 
+     (isNaN(request)){
+        alert("No es un número");
+    }else{
+        alert("Si es un número");
+
+    }
+
+
+
 // Validar con método de Luhn. Para eso convertir lo que se ingresa como string a arreglo para comenzar.
  /* var reverse = function(arr){
   var newNumber = [];
@@ -19,7 +22,7 @@ var request = (prompt("Por favor ingrese su número de tarjeta"));
 
    for(i = lastPosition; i>= 0; i--){
    	newNumber.push(arr[i]); // nuevo arreglo con números invertidos
- */
+ 
 
  //for each pair numb multiply
  var newNumberMultiply = [];
@@ -42,4 +45,4 @@ var request = (prompt("Por favor ingrese su número de tarjeta"));
    function isValidCard;
 
 
-
+*/
