@@ -41,7 +41,7 @@ var reverse = function(array){
 
 #### Link
 
-_[diagrama validación](https://github.com/cubillosarteaga/proyecto-validacion/blob/master/diagrama%20tarjeta%20valida.jpg?raw=true)_
+_![diagrama validación](https://github.com/cubillosarteaga/proyecto-validacion/blob/master/diagrama%20tarjeta%20valida.jpg?raw=true)_
 
 
 **Este archivo es la versión 0.0.1** 
